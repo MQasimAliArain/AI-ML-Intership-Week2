@@ -28,7 +28,7 @@ The model achieved high predictive performance, reaching over **90% accuracy** o
 * Evaluation metrics for multi-class text classification (Accuracy & F1-Score).
 * Model deployment for live interaction.
 
-# Task 4: Context-Aware Chatbot Using LangChain or RAG
+## Task 4: Context-Aware Chatbot Using LangChain or RAG
 
 ## Task Objective
 To build a high-performance **Retrieval-Augmented Generation (RAG)** pipeline that allows users to interact with PDF documents through a natural language interface, specifically optimized for comparative data analysis and ranking tasks.
