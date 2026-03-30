@@ -28,6 +28,39 @@ The model achieved high predictive performance, reaching over **90% accuracy** o
 * Evaluation metrics for multi-class text classification (Accuracy & F1-Score).
 * Model deployment for live interaction.
 
+## Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API
+
+### Task Objective
+To develop an end-to-end Machine Learning pipeline that predicts the likelihood of customer attrition (churn) and provides an interactive interface for real-time risk assessment.
+
+### Dataset
+* **Source:** IBM Telco Customer Churn Dataset.
+* **Features:** 19 columns including Demographic (Gender, Seniority), Services (Internet, Tech Support), and Financial (Monthly Charges, Contract Type).
+* **Target:** Churn Status (Binary: Yes/No).
+
+### Models & Tools Used
+* **Random Forest Classifier:** An ensemble learning model chosen for its high accuracy and ability to handle non-linear relationships.
+* **Scikit-Learn Pipeline:** Integrated preprocessing (Scaling & One-Hot Encoding) into a single `.pkl` object for seamless deployment.
+* **IPyWidgets:** A Python-based framework used to build a professional, tabbed interactive dashboard within Jupyter/Colab.
+
+###  Methodology
+* **Preprocessing:** Automated handling of `TotalCharges` (string-to-numeric) and median imputation for missing values.
+* **Feature Engineering:** One-Hot Encoding for categorical variables and Standard Scaling for financial metrics.
+* **Optimization:** Used **GridSearchCV** to tune hyperparameters (`max_depth`, `n_estimators`), ensuring the model generalizes well to new data.
+* **Deployment:** Created a 3-tab UI (Personal, Services, Billing) with live probability scoring and color-coded risk alerts.
+
+###  Results
+The model successfully identifies the primary drivers of churn, specifically **Contract Type** and **Tenure**.
+* **Accuracy:** Achieved high cross-validation scores through systematic hyperparameter tuning.
+* **Evaluation:** Confirmed via a **Confusion Matrix** and **Classification Report**, showing strong precision in detecting at-risk customers.
+* **User Experience:** The final dashboard allows for instant "what-if" analysis by changing customer attributes.
+
+### Skills Gained
+* **End-to-End Pipeline Design:** Building robust, reproducible ML workflows using Scikit-Learn.
+* **Hyperparameter Tuning:** Systematic optimization of model parameters via Grid Search.
+* **Feature Importance Analysis:** Identifying and interpreting which business variables drive customer behavior.
+* **Interactive UI Development:** Designing functional, user-friendly dashboards for data-driven decision-making.
+
 ## Task 4: Context-Aware Chatbot Using LangChain or RAG
 
 ## Task Objective
