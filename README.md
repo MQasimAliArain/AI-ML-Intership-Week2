@@ -82,7 +82,7 @@ To build a high-performance **Retrieval-Augmented Generation (RAG)** pipeline th
 * **Optimization:** Implemented a **Senior Economic Data Analyst** system prompt to ensure the model performs numerical ranking and cross-country comparisons with high precision.
 * **Retrieval:** Uses a similarity-based retriever configured to fetch the top 3 most relevant context windows ($k=3$).
 * **UI Deployment:** An interactive, stylized chat interface built with `ipywidgets` and custom HTML/JavaScript to handle auto-scrolling and message history within Jupyter.
-
+  
 ## Results
 The system demonstrates exceptional performance in extracting specific data points from complex documents. By using a **temperature of 0**, the chatbot maintains high factual integrity, making it ideal for professional economic or technical analysis. The integration of **Groq** allows for complex 70B model reasoning with sub-second response times, significantly outperforming standard cloud-based APIs.
 
